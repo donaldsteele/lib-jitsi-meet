@@ -170,6 +170,16 @@ export const MEMBERS_ONLY_CHANGED = 'conference.membersOnlyChanged';
  */
 export const MESSAGE_RECEIVED = 'conference.messageReceived';
 
+/*
+ * User added to moderated audio exceptions list.
+ */
+export const MODERATED_AUDIO_EXCEPTION_ADDED = 'conference.moderatedAudio.exceptionAdded';
+
+/*
+ * User removed from moderated audio exceptions list.
+ */
+export const MODERATED_AUDIO_EXCEPTION_REMOVED = 'conference.moderatedAudio.exceptionRemoved';
+
 /**
  * Event indicates that the current selected input device has no signal
  */
